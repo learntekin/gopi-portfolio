@@ -1,0 +1,417 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+  
+font-family: 'Roboto', sans-serif;
+}
+
+.navLink{
+  padding: 15px !important;
+}
+
+.nav-link{
+  background-image: linear-gradient(to bottom,
+  transparent 0%,transparent 90%,
+  aquamarine 90%,aquamarine 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x:right ;
+  transition: background-size 300ms;
+
+}
+.nav-link:hover{
+  background-size: 100% 100%;
+  background-position-x:left ;
+  
+}
+
+
+
+.home{
+  padding: 115px !important;
+  
+}
+
+
+
+.homename{
+  position: relative;
+  width: 600px;
+  height: 2px;
+  background: linear-gradient(to right,transparent,rgb(103,27,255),transparent);
+  overflow:hidden ;
+  
+  
+}
+@media screen and (max-width:768px) {
+  .homename{width: 300px;}
+  
+}
+.homename::after{
+  content: '';
+  position: absolute;
+  translate: -200px 0;
+  width: 100px;
+  height: 100%;
+  background: linear-gradient(to right,transparent,rgb(0,0,0),transparent);
+  animation: some 1s infinite;
+}
+
+
+@keyframes some{
+  100%{
+    translate: 200px 0;
+  }
+}
+ 
+ .home1{
+    animation: fadeIn 5s;
+    
+    margin-top: 40px;
+  
+    
+} 
+@keyframes fadeIn {
+0% { opacity: 0; }
+
+100% { opacity: 1; }
+}
+
+
+.profile{
+  height: 550px;
+  width: 350px;
+  border-radius: 25px;
+}
+.fontco{
+    background: linear-gradient(to right,rgb(94, 170, 233),rgb(235, 229, 229));
+    
+}
+.text1{
+  
+    font-size: large;
+}
+.contact-list{
+  margin-bottom: 3rem;
+}
+.contact-list li{
+  margin-bottom: 10px;
+  display: block;
+}
+.contact-list li{
+  margin-bottom: 10px;
+  display: block;
+}
+.contact-list i{
+  padding-top: 15px;
+  display: inline-block;
+  color: rgb(255, 242, 0);
+  font-size: 40px;
+  font-weight: 600;
+  transition: all .40s ease;
+}
+.contact-list li a:hover{
+  transform: scale(1.01) translateY(-5px);
+  color: #0ef;
+}
+
+.card{
+    padding-top: 1px;
+}
+.aboutme{
+    
+    background-color: aliceblue;
+    border-radius: 50px;
+    padding: 115px !important;
+    
+}
+
+.fontco1{
+    background: linear-gradient(to right,antiquewhite,rgb(94,170,233));
+    display: inline-block;
+}
+.sertitle{
+    background: linear-gradient(to right,antiquewhite,rgb(94,170,233));
+    display: inline-block;
+
+}
+ .protitle{
+    
+    background: linear-gradient(to right,antiquewhite,rgb(94,170,233));
+    display: inline-block;
+    
+} 
+.projects{
+    padding: 115px !important;
+    background-color:whitesmoke;
+    border-radius:50px ;
+}
+.services{
+  padding: 115px !important;
+}
+
+.ser{
+  border: 5px solid black;
+  height: 350px;
+  padding: 50px;
+  box-shadow: 0 0 10px black;
+}
+
+.contact{
+    padding: 115px !important;
+    background-color: aliceblue;
+}
+.textbg3{
+    background: linear-gradient(to right,antiquewhite,rgb(94,170,233));
+
+}
+.formbg{
+    padding: 50px !important;
+    color: azure;
+    background-color: black;
+    border-radius: 25px;
+}
+
+
+.heading2{
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  text-decoration-thickness: 5px;
+  padding: 0px 0px 100px;
+  
+}
+
+
+
+  /* CSS for the footer */
+  footer {
+    background-color: #070707;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Styling for links in the footer */
+footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s;
+}
+
+/* Animation for links when hovering */
+footer a:hover {
+    color: #fff;
+}
+
+/* Footer content container */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    /* display: flex; */
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer sections */
+.footer-section {
+    flex: 1;
+    margin-bottom: 20px;
+}
+
+/* Typography for footer */
+.footer-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Contact information */
+.contact-info {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Social media icons */
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+
+
+
+
+  .myskill{
+    padding: 100px !important;
+    background-color: aliceblue;
+  }
+
+  .mytitle{
+    
+    background: linear-gradient(to right,antiquewhite,rgb(94,170,233));
+    display: inline-block;
+    
+
+
+  }
+  .heading1{
+    
+    text-decoration: underline rgb(134, 134, 248);
+    text-underline-offset:10px ;
+    text-decoration-thickness:5px  ;
+    margin-bottom:10px ;
+    
+
+}
+  
+  
+  .bar{
+    font-size:larger ;
+    
+    
+  }
+  .bar i{
+    font-size: larger;
+    padding-top: 20px;
+    padding-left: 30px;
+
+  }
+  .Technical-bars{
+    padding: 20px;
+    
+  }
+
+  .social-icons i{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50px;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin:  0;
+    transition: .5s ease;
+    
+    animation: slideleft 1s ease forwards;
+    animation-delay: calc(-2s * var(--1) );   
+}
+.social-icons i:hover{
+    background: rgb(255, 251, 0);
+    color: #000;
+    box-shadow:  0 0 20px #0ef;
+}
+
+
+
+
+
+.radial-bars{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+
+  align-items: flex-start;
+  
+} 
+
+ 
+.radial-bars .radial-bar .progress-bar{
+  stroke-width: 10;
+  stroke: white;
+  fill: transparent;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  stroke-linecap: round;
+  animation: animate-bar 1s linear forwards;
+}
+@keyframes animate-bar{
+  100%{
+      stroke-dashoffset: -1;
+  }
+}
+.path{
+  stroke-width: 10;
+  stroke:#9341b4;
+  fill: transparent;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
+  stroke-linecap: round;
+}
+.path-1{animation:animate-path1 1s 1s linear forwards;}
+.path-2{animation:animate-path1 1s 1s linear forwards;}
+.path-3{animation:animate-path1 1s 1s linear forwards;}
+.path-4{animation:animate-path1 1s 1s linear forwards;}
+
+@keyframes animate-path1{
+  100%{ 
+      stroke-dashoffset: 50;
+  }
+}
+@keyframes animate-path12{
+  100%{ 
+      stroke-dashoffset: 175;
+  }
+}
+@keyframes animate-path1{
+  100%{ 
+      stroke-dashoffset: 125;
+  }
+}
+@keyframes animate-path1{
+  100%{ 
+      stroke-dashoffset: 75;
+  }
+}
+.radial-bar .percentage{
+  position: absolute;
+  transform: translate(-50%,-50%);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5 1s linear forwards;
+  opacity: 0;
+}
+.progress-bar .text{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5 1s linear forwards;
+  opacity: 0;
+}
+
+@media(max-width:800px){
+  .home{
+    padding: 10px !important;
+  }
+  .formbg{
+    padding: 20px !important;
+  }
+  
+  .projects{
+    padding: 10px !important;
+  }
+  .aboutme{
+    padding: 10px !important;
+  }
+
+  .myskill{
+    padding: 10px  !important;
+  }
+  .contact{
+    padding: 1px !important;
+  }
+}
